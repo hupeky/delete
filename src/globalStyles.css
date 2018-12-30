@@ -1,0 +1,50 @@
+
+
+  
+  body {
+    margin:0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.myP {
+    color:purple;
+}
+
+p {
+    margin-top:20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    vertical-align: middle;
+}
+menu {
+    margin:0
+}
+@media only screen and (min-width: 0px) {
+    .sectionBlockMargin {
+        margin:30px auto
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sectionBlockMargin {
+        margin:40px auto
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .sectionBlockMargin {
+        margin:50px auto
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .sectionBlockMargin {
+        margin:60px auto
+    }
+}
+@media only screen and (min-width: 1920px) {
+    .sectionBlockMargin {
+        margin:70px auto
+    }
+}

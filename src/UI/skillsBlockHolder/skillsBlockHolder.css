@@ -1,0 +1,25 @@
+
+
+.skillsBlock {
+    position:relative;
+    width:100%
+}
+
+.onScreen {
+    position:relative;
+}
+
+.slideIn {
+    transition:200ms;
+    position:relative;
+    opacity: 0;
+    transform:translateX(-25px);
+}
+
+.onScreen .slideIn {
+    transition:600ms;
+    transform:translateX(0px);
+    opacity: 1;
+}
+
+
